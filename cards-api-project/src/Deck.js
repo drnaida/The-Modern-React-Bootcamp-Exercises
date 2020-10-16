@@ -47,8 +47,9 @@ class Deck extends Component {
     ));
     return(
       <div>
-        <h1>Card Dealer</h1>
-        <button onClick={this.getCard}>Get Card!</button>
+        <h1 className="Deck-title">&#9670; Card Dealer &#9670;</h1>
+        <h2 className="Deck-title subtitle">&#9670; A little demo made with React &#9670;</h2>
+        <button className="Deck-btn" onClick={this.getCard}>Get Card!</button>
         <div className='Deck-cardarea'>{cards}</div>
       </div>
     )
