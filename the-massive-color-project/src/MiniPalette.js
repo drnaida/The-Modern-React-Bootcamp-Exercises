@@ -35,12 +35,12 @@ const styles = {
     fontSize: '1.5rem'
   },
   miniColor: {
-    heght: '25%',
+    height: '25%',
     width:'20%',
     display: 'inline-block',
     margin: '0 auto',
     position: 'relative',
-    marginBottom: '-3.5px'
+    marginBottom: '-4.5px'
   }
 };
 
